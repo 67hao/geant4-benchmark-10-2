@@ -21,7 +21,7 @@ GDRIVE_FOLDER_ID = "1RBUI6lx8yrnTgappHpAvfnZTCzSvR0nM"  # 10.2_Mac / 02_Geant4
 
 ACCOUNTS = [
     'haoidlemystic1', 'vuicho', 'haoidle4zk', '67hao', 'idlemystich',
-    'CarwynDuc', 'laolaolaoma09', 'Bethwl', 'coredaohaojack', '1983huehao',
+    'CarwynDuc', 'laolaolaoma09', 'Bethwl', 'coredaohaojack',
     'htvnhe', 'haohue27', 'fewhourtorelax', 'zotactothesun'
 ]
 

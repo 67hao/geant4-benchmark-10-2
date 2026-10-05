@@ -11,13 +11,13 @@
         "macro_file": "blank_80keV.mac"
       },
       {
-        "job_name": "tpcb10_2614keV_th1.025cm",
+        "job_name": "tpcb10_1173keV_th1.025cm",
         "sample": "TPCB10",
-        "energy_kev": 2614.0,
-        "energy_mev": 2.614,
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
         "thickness_cm": 1.025,
         "thickness_mm": 10.25,
-        "macro_file": "tpcb10_2614keV_th1.025cm.mac"
+        "macro_file": "tpcb10_1173keV_th1.025cm.mac"
       }
     ],
     "2": [
@@ -29,6 +29,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_238keV.mac"
+      },
+      {
+        "job_name": "tpcb10_1333keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_1333keV_th0.312cm.mac"
       }
     ],
     "3": [
@@ -40,6 +49,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_356keV.mac"
+      },
+      {
+        "job_name": "tpcb10_1333keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_1333keV_th0.354cm.mac"
       }
     ],
     "4": [
@@ -51,6 +69,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_662keV.mac"
+      },
+      {
+        "job_name": "tpcb10_1333keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_1333keV_th0.359cm.mac"
       }
     ],
     "5": [
@@ -62,6 +89,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_1173keV.mac"
+      },
+      {
+        "job_name": "tpcb10_1333keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_1333keV_th0.666cm.mac"
       }
     ],
     "6": [
@@ -73,6 +109,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_1333keV.mac"
+      },
+      {
+        "job_name": "tpcb10_1333keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_1333keV_th1.025cm.mac"
       }
     ],
     "7": [
@@ -84,6 +129,15 @@
         "thickness_cm": 0.5,
         "thickness_mm": 5.0,
         "macro_file": "blank_2614keV.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_2614keV_th0.312cm.mac"
       }
     ],
     "8": [
@@ -95,6 +149,15 @@
         "thickness_cm": 0.0,
         "thickness_mm": 0.0,
         "macro_file": "run_all.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_2614keV_th0.354cm.mac"
       }
     ],
     "9": [
@@ -106,6 +169,15 @@
         "thickness_cm": 0.259,
         "thickness_mm": 2.59,
         "macro_file": "tpcb00_80keV_th0.259cm.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_2614keV_th0.359cm.mac"
       }
     ],
     "10": [
@@ -117,6 +189,15 @@
         "thickness_cm": 0.331,
         "thickness_mm": 3.31,
         "macro_file": "tpcb00_80keV_th0.331cm.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_2614keV_th0.666cm.mac"
       }
     ]
   },
@@ -130,6 +211,15 @@
         "thickness_cm": 0.348,
         "thickness_mm": 3.48,
         "macro_file": "tpcb00_80keV_th0.348cm.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_2614keV_th1.025cm.mac"
       }
     ],
     "2": [
@@ -1016,7 +1106,7 @@
       }
     ]
   },
-  "1983huehao": {
+  "htvnhe": {
     "1": [
       {
         "job_name": "tpcb06_238keV_th0.609cm",
@@ -1128,7 +1218,7 @@
       }
     ]
   },
-  "htvnhe": {
+  "haohue27": {
     "1": [
       {
         "job_name": "tpcb06_1333keV_th0.243cm",
@@ -1240,7 +1330,7 @@
       }
     ]
   },
-  "haohue27": {
+  "fewhourtorelax": {
     "1": [
       {
         "job_name": "tpcb10_80keV_th1.025cm",
@@ -1352,7 +1442,7 @@
       }
     ]
   },
-  "fewhourtorelax": {
+  "zotactothesun": {
     "1": [
       {
         "job_name": "tpcb10_356keV_th1.025cm",
@@ -1461,118 +1551,6 @@
         "thickness_cm": 0.666,
         "thickness_mm": 6.66,
         "macro_file": "tpcb10_1173keV_th0.666cm.mac"
-      }
-    ]
-  },
-  "zotactothesun": {
-    "1": [
-      {
-        "job_name": "tpcb10_1173keV_th1.025cm",
-        "sample": "TPCB10",
-        "energy_kev": 1173.0,
-        "energy_mev": 1.173,
-        "thickness_cm": 1.025,
-        "thickness_mm": 10.25,
-        "macro_file": "tpcb10_1173keV_th1.025cm.mac"
-      }
-    ],
-    "2": [
-      {
-        "job_name": "tpcb10_1333keV_th0.312cm",
-        "sample": "TPCB10",
-        "energy_kev": 1333.0,
-        "energy_mev": 1.333,
-        "thickness_cm": 0.312,
-        "thickness_mm": 3.12,
-        "macro_file": "tpcb10_1333keV_th0.312cm.mac"
-      }
-    ],
-    "3": [
-      {
-        "job_name": "tpcb10_1333keV_th0.354cm",
-        "sample": "TPCB10",
-        "energy_kev": 1333.0,
-        "energy_mev": 1.333,
-        "thickness_cm": 0.354,
-        "thickness_mm": 3.54,
-        "macro_file": "tpcb10_1333keV_th0.354cm.mac"
-      }
-    ],
-    "4": [
-      {
-        "job_name": "tpcb10_1333keV_th0.359cm",
-        "sample": "TPCB10",
-        "energy_kev": 1333.0,
-        "energy_mev": 1.333,
-        "thickness_cm": 0.359,
-        "thickness_mm": 3.59,
-        "macro_file": "tpcb10_1333keV_th0.359cm.mac"
-      }
-    ],
-    "5": [
-      {
-        "job_name": "tpcb10_1333keV_th0.666cm",
-        "sample": "TPCB10",
-        "energy_kev": 1333.0,
-        "energy_mev": 1.333,
-        "thickness_cm": 0.666,
-        "thickness_mm": 6.66,
-        "macro_file": "tpcb10_1333keV_th0.666cm.mac"
-      }
-    ],
-    "6": [
-      {
-        "job_name": "tpcb10_1333keV_th1.025cm",
-        "sample": "TPCB10",
-        "energy_kev": 1333.0,
-        "energy_mev": 1.333,
-        "thickness_cm": 1.025,
-        "thickness_mm": 10.25,
-        "macro_file": "tpcb10_1333keV_th1.025cm.mac"
-      }
-    ],
-    "7": [
-      {
-        "job_name": "tpcb10_2614keV_th0.312cm",
-        "sample": "TPCB10",
-        "energy_kev": 2614.0,
-        "energy_mev": 2.614,
-        "thickness_cm": 0.312,
-        "thickness_mm": 3.12,
-        "macro_file": "tpcb10_2614keV_th0.312cm.mac"
-      }
-    ],
-    "8": [
-      {
-        "job_name": "tpcb10_2614keV_th0.354cm",
-        "sample": "TPCB10",
-        "energy_kev": 2614.0,
-        "energy_mev": 2.614,
-        "thickness_cm": 0.354,
-        "thickness_mm": 3.54,
-        "macro_file": "tpcb10_2614keV_th0.354cm.mac"
-      }
-    ],
-    "9": [
-      {
-        "job_name": "tpcb10_2614keV_th0.359cm",
-        "sample": "TPCB10",
-        "energy_kev": 2614.0,
-        "energy_mev": 2.614,
-        "thickness_cm": 0.359,
-        "thickness_mm": 3.59,
-        "macro_file": "tpcb10_2614keV_th0.359cm.mac"
-      }
-    ],
-    "10": [
-      {
-        "job_name": "tpcb10_2614keV_th0.666cm",
-        "sample": "TPCB10",
-        "energy_kev": 2614.0,
-        "energy_mev": 2.614,
-        "thickness_cm": 0.666,
-        "thickness_mm": 6.66,
-        "macro_file": "tpcb10_2614keV_th0.666cm.mac"
       }
     ]
   }

@@ -6,10 +6,10 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-
+# 13 ACTIVE accounts (1983huehao excluded because Actions is disabled)
 ACCOUNTS = [
     'haoidlemystic1', 'vuicho', 'haoidle4zk', '67hao', 'idlemystich',
-    'CarwynDuc', 'laolaolaoma09', 'Bethwl', 'coredaohaojack', '1983huehao',
+    'CarwynDuc', 'laolaolaoma09', 'Bethwl', 'coredaohaojack',
     'htvnhe', 'haohue27', 'fewhourtorelax', 'zotactothesun'
 ]
 
@@ -46,12 +46,10 @@ def main():
             "macro_file": f.name
         })
 
-    # Sort jobs so blanks run first across runners or evenly distributed
     all_jobs.sort(key=lambda x: (0 if "blank" in x["job_name"] else 1, x["sample"], x["energy_kev"], x["thickness_cm"]))
 
     plan = {acc: {str(r): [] for r in range(1, NUM_RUNNERS_PER_ACC + 1)} for acc in ACCOUNTS}
 
-    # Round-robin distribution
     runner_list = []
     for acc in ACCOUNTS:
         for r in range(1, NUM_RUNNERS_PER_ACC + 1):
@@ -65,10 +63,13 @@ def main():
     with open(plan_file, "w", encoding="utf-8") as f:
         json.dump(plan, f, indent=2)
 
-    print(f"🎉 Đã sinh kế hoạch phân bổ {len(all_jobs)} jobs vào {plan_file}:")
+    print(f"🎉 Đã sinh kế hoạch phân bổ {len(all_jobs)} jobs vào {plan_file} cho 13 accounts:")
+    total_check = 0
     for acc in ACCOUNTS:
         total_acc_jobs = sum(len(plan[acc][str(r)]) for r in range(1, NUM_RUNNERS_PER_ACC + 1))
-        print(f"  - Account: {acc:<16} | Tổng jobs: {total_acc_jobs} (mỗi runner ~ {len(plan[acc]['1'])} job)")
+        total_check += total_acc_jobs
+        print(f"  - Account: {acc:<16} | Tổng jobs: {total_acc_jobs} (mỗi runner ~ 1 job)")
+    print(f"Tổng số jobs đã phân bổ: {total_check} / {len(all_jobs)}")
 
 if __name__ == "__main__":
     main()

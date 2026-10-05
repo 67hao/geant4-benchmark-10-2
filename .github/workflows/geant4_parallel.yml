@@ -36,21 +36,39 @@ jobs:
           chmod +x /tmp/micromamba
 
           echo ">>> [INSTALL] Installing Geant4 via micromamba..."
-          /tmp/micromamba create -y -p /tmp/geant4_env -c conda-forge \
-            geant4=11.2 cmake make compilers python=3.11 pandas numpy openpyxl \
+          /tmp/micromamba create -y -p /tmp/g4_env -c conda-forge \
+            geant4 expat zlib freetype cmake make gxx_linux-64 \
+            python=3.11 pandas numpy openpyxl \
             google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-      - name: Build Geant4 Application
+      - name: Compile Geant4 Simulation
         shell: bash
         run: |
-          export PATH="/tmp/geant4_env/bin:$PATH"
-          export LD_LIBRARY_PATH="/tmp/geant4_env/lib:$LD_LIBRARY_PATH"
+          echo ">>> [BUILD] Compiling Sim executable..."
+          eval "$(/tmp/micromamba shell hook --shell bash)"
+          micromamba activate /tmp/g4_env
+          export PATH="/tmp/g4_env/bin:$PATH"
+          export LD_LIBRARY_PATH="/tmp/g4_env/lib:$LD_LIBRARY_PATH"
           mkdir -p build && cd build
-          cmake .. -DCMAKE_BUILD_TYPE=Release \
-                   -DCMAKE_PREFIX_PATH="/tmp/geant4_env" \
-                   -DCMAKE_INSTALL_RPATH="/tmp/geant4_env/lib" \
-                   -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE
-          make -j$(nproc)
+          /tmp/g4_env/bin/cmake \
+            -DCMAKE_CXX_COMPILER=$(which x86_64-conda-linux-gnu-g++ || echo "/tmp/g4_env/bin/g++") \
+            -DCMAKE_C_COMPILER=$(which x86_64-conda-linux-gnu-gcc || echo "/tmp/g4_env/bin/gcc") \
+            -DCMAKE_EXE_LINKER_FLAGS="-Wl,-rpath,/tmp/g4_env/lib -L/tmp/g4_env/lib" \
+            -DCMAKE_PREFIX_PATH=/tmp/g4_env \
+            -DCMAKE_IGNORE_PATH="/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/include" \
+            -DEXPAT_ROOT=/tmp/g4_env \
+            -DEXPAT_LIBRARY=/tmp/g4_env/lib/libexpat.so \
+            -DEXPAT_INCLUDE_DIR=/tmp/g4_env/include \
+            -DZLIB_ROOT=/tmp/g4_env \
+            -DZLIB_LIBRARY=/tmp/g4_env/lib/libz.so \
+            -DZLIB_INCLUDE_DIR=/tmp/g4_env/include \
+            -DFREETYPE_DIR=/tmp/g4_env \
+            -DFREETYPE_LIBRARY=/tmp/g4_env/lib/libfreetype.so \
+            -DFREETYPE_INCLUDE_DIR_ft2build=/tmp/g4_env/include \
+            -DFREETYPE_INCLUDE_DIR_freetype2=/tmp/g4_env/include/freetype2 \
+            ..
+          make -j2 Sim
+          echo ">>> [BUILD] Sim compiled successfully!"
           ls -la Sim
           cd ..
 
@@ -59,8 +77,10 @@ jobs:
           GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
           GDRIVE_FOLDER_ID: ${{ github.event.inputs.gdrive_folder }}
         run: |
-          export PATH="/tmp/geant4_env/bin:$PATH"
-          export LD_LIBRARY_PATH="/tmp/geant4_env/lib:$LD_LIBRARY_PATH"
+          eval "$(/tmp/micromamba shell hook --shell bash)"
+          micromamba activate /tmp/g4_env
+          export PATH="/tmp/g4_env/bin:$PATH"
+          export LD_LIBRARY_PATH="/tmp/g4_env/lib:$LD_LIBRARY_PATH"
           python3 run_geant4_task.py \
             --runner-id ${{ matrix.runner_id }} \
             --num-runners 10 \

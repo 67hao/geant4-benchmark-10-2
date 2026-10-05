@@ -1,6 +1,8 @@
 build/
+build_wsl/
 *.csv
 *.xlsx
 __pycache__/
 *.log
+get_failure_logs.py
 .DS_Store
