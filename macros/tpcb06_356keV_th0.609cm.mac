@@ -1,0 +1,8 @@
+/control/verbose 2
+/DetectorConstruction/Sample_Material TPCB06
+/DetectorConstruction/Sample_Thickness 6.0900 mm
+/DetectorConstruction/update
+
+/gun/energy 356.0000 keV
+/analysis/setFileName tpcb06_356keV_th0.609cm
+/run/beamOn 1000000

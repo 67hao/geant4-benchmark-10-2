@@ -1,0 +1,1579 @@
+{
+  "haoidlemystic1": {
+    "1": [
+      {
+        "job_name": "blank_80keV",
+        "sample": "Blank",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_80keV.mac"
+      },
+      {
+        "job_name": "tpcb10_2614keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_2614keV_th1.025cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "blank_238keV",
+        "sample": "Blank",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_238keV.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "blank_356keV",
+        "sample": "Blank",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_356keV.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "blank_662keV",
+        "sample": "Blank",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_662keV.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "blank_1173keV",
+        "sample": "Blank",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_1173keV.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "blank_1333keV",
+        "sample": "Blank",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_1333keV.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "blank_2614keV",
+        "sample": "Blank",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.5,
+        "thickness_mm": 5.0,
+        "macro_file": "blank_2614keV.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "run_all",
+        "sample": "Blank",
+        "energy_kev": 0.0,
+        "energy_mev": 0.0,
+        "thickness_cm": 0.0,
+        "thickness_mm": 0.0,
+        "macro_file": "run_all.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb00_80keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_80keV_th0.259cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb00_80keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_80keV_th0.331cm.mac"
+      }
+    ]
+  },
+  "vuicho": {
+    "1": [
+      {
+        "job_name": "tpcb00_80keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_80keV_th0.348cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb00_80keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_80keV_th0.679cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb00_80keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_80keV_th0.938cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb00_238keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_238keV_th0.259cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb00_238keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_238keV_th0.331cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb00_238keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_238keV_th0.348cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb00_238keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_238keV_th0.679cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb00_238keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_238keV_th0.938cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb00_356keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_356keV_th0.259cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb00_356keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_356keV_th0.331cm.mac"
+      }
+    ]
+  },
+  "haoidle4zk": {
+    "1": [
+      {
+        "job_name": "tpcb00_356keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_356keV_th0.348cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb00_356keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_356keV_th0.679cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb00_356keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_356keV_th0.938cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb00_662keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_662keV_th0.259cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb00_662keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_662keV_th0.331cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb00_662keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_662keV_th0.348cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb00_662keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_662keV_th0.679cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb00_662keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_662keV_th0.938cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb00_1173keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_1173keV_th0.259cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb00_1173keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_1173keV_th0.331cm.mac"
+      }
+    ]
+  },
+  "67hao": {
+    "1": [
+      {
+        "job_name": "tpcb00_1173keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_1173keV_th0.348cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb00_1173keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_1173keV_th0.679cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb00_1173keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_1173keV_th0.938cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb00_1333keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_1333keV_th0.259cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb00_1333keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_1333keV_th0.331cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb00_1333keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_1333keV_th0.348cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb00_1333keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_1333keV_th0.679cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb00_1333keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_1333keV_th0.938cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb00_2614keV_th0.259cm",
+        "sample": "TPCB00",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.259,
+        "thickness_mm": 2.59,
+        "macro_file": "tpcb00_2614keV_th0.259cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb00_2614keV_th0.331cm",
+        "sample": "TPCB00",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.331,
+        "thickness_mm": 3.31,
+        "macro_file": "tpcb00_2614keV_th0.331cm.mac"
+      }
+    ]
+  },
+  "idlemystich": {
+    "1": [
+      {
+        "job_name": "tpcb00_2614keV_th0.348cm",
+        "sample": "TPCB00",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.348,
+        "thickness_mm": 3.48,
+        "macro_file": "tpcb00_2614keV_th0.348cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb00_2614keV_th0.679cm",
+        "sample": "TPCB00",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.679,
+        "thickness_mm": 6.79,
+        "macro_file": "tpcb00_2614keV_th0.679cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb00_2614keV_th0.938cm",
+        "sample": "TPCB00",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.9380000000000001,
+        "thickness_mm": 9.38,
+        "macro_file": "tpcb00_2614keV_th0.938cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb02_80keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_80keV_th0.332cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb02_80keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_80keV_th0.401cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb02_80keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_80keV_th0.733cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb02_238keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_238keV_th0.332cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb02_238keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_238keV_th0.401cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb02_238keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_238keV_th0.733cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb02_356keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_356keV_th0.332cm.mac"
+      }
+    ]
+  },
+  "CarwynDuc": {
+    "1": [
+      {
+        "job_name": "tpcb02_356keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_356keV_th0.401cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb02_356keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_356keV_th0.733cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb02_662keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_662keV_th0.332cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb02_662keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_662keV_th0.401cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb02_662keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_662keV_th0.733cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb02_1173keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_1173keV_th0.332cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb02_1173keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_1173keV_th0.401cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb02_1173keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_1173keV_th0.733cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb02_1333keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_1333keV_th0.332cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb02_1333keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_1333keV_th0.401cm.mac"
+      }
+    ]
+  },
+  "laolaolaoma09": {
+    "1": [
+      {
+        "job_name": "tpcb02_1333keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_1333keV_th0.733cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb02_2614keV_th0.332cm",
+        "sample": "TPCB02",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.33199999999999996,
+        "thickness_mm": 3.32,
+        "macro_file": "tpcb02_2614keV_th0.332cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb02_2614keV_th0.401cm",
+        "sample": "TPCB02",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.40099999999999997,
+        "thickness_mm": 4.01,
+        "macro_file": "tpcb02_2614keV_th0.401cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb02_2614keV_th0.733cm",
+        "sample": "TPCB02",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.733,
+        "thickness_mm": 7.33,
+        "macro_file": "tpcb02_2614keV_th0.733cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb04_80keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_80keV_th0.252cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb04_80keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_80keV_th0.357cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb04_80keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_80keV_th0.609cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb04_238keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_238keV_th0.252cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb04_238keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_238keV_th0.357cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb04_238keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_238keV_th0.609cm.mac"
+      }
+    ]
+  },
+  "Bethwl": {
+    "1": [
+      {
+        "job_name": "tpcb04_356keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_356keV_th0.252cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb04_356keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_356keV_th0.357cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb04_356keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_356keV_th0.609cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb04_662keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_662keV_th0.252cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb04_662keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_662keV_th0.357cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb04_662keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_662keV_th0.609cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb04_1173keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_1173keV_th0.252cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb04_1173keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_1173keV_th0.357cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb04_1173keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_1173keV_th0.609cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb04_1333keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_1333keV_th0.252cm.mac"
+      }
+    ]
+  },
+  "coredaohaojack": {
+    "1": [
+      {
+        "job_name": "tpcb04_1333keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_1333keV_th0.357cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb04_1333keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_1333keV_th0.609cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb04_2614keV_th0.252cm",
+        "sample": "TPCB04",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.252,
+        "thickness_mm": 2.52,
+        "macro_file": "tpcb04_2614keV_th0.252cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb04_2614keV_th0.357cm",
+        "sample": "TPCB04",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.357,
+        "thickness_mm": 3.57,
+        "macro_file": "tpcb04_2614keV_th0.357cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb04_2614keV_th0.609cm",
+        "sample": "TPCB04",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb04_2614keV_th0.609cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb06_80keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_80keV_th0.243cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb06_80keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_80keV_th0.349cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb06_80keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_80keV_th0.609cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb06_238keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_238keV_th0.243cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb06_238keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_238keV_th0.349cm.mac"
+      }
+    ]
+  },
+  "1983huehao": {
+    "1": [
+      {
+        "job_name": "tpcb06_238keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_238keV_th0.609cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb06_356keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_356keV_th0.243cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb06_356keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_356keV_th0.349cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb06_356keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_356keV_th0.609cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb06_662keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_662keV_th0.243cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb06_662keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_662keV_th0.349cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb06_662keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_662keV_th0.609cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb06_1173keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_1173keV_th0.243cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb06_1173keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_1173keV_th0.349cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb06_1173keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_1173keV_th0.609cm.mac"
+      }
+    ]
+  },
+  "htvnhe": {
+    "1": [
+      {
+        "job_name": "tpcb06_1333keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_1333keV_th0.243cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb06_1333keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_1333keV_th0.349cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb06_1333keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_1333keV_th0.609cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb06_2614keV_th0.243cm",
+        "sample": "TPCB06",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.24300000000000002,
+        "thickness_mm": 2.43,
+        "macro_file": "tpcb06_2614keV_th0.243cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb06_2614keV_th0.349cm",
+        "sample": "TPCB06",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.34900000000000003,
+        "thickness_mm": 3.49,
+        "macro_file": "tpcb06_2614keV_th0.349cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb06_2614keV_th0.609cm",
+        "sample": "TPCB06",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.609,
+        "thickness_mm": 6.09,
+        "macro_file": "tpcb06_2614keV_th0.609cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb10_80keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_80keV_th0.312cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb10_80keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_80keV_th0.354cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb10_80keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_80keV_th0.359cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb10_80keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_80keV_th0.666cm.mac"
+      }
+    ]
+  },
+  "haohue27": {
+    "1": [
+      {
+        "job_name": "tpcb10_80keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 80.0,
+        "energy_mev": 0.08,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_80keV_th1.025cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb10_238keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_238keV_th0.312cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb10_238keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_238keV_th0.354cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb10_238keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_238keV_th0.359cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb10_238keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_238keV_th0.666cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb10_238keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 238.0,
+        "energy_mev": 0.238,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_238keV_th1.025cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb10_356keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_356keV_th0.312cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb10_356keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_356keV_th0.354cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb10_356keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_356keV_th0.359cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb10_356keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_356keV_th0.666cm.mac"
+      }
+    ]
+  },
+  "fewhourtorelax": {
+    "1": [
+      {
+        "job_name": "tpcb10_356keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 356.0,
+        "energy_mev": 0.356,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_356keV_th1.025cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb10_662keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_662keV_th0.312cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb10_662keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_662keV_th0.354cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb10_662keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_662keV_th0.359cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb10_662keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_662keV_th0.666cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb10_662keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 662.0,
+        "energy_mev": 0.662,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_662keV_th1.025cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb10_1173keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_1173keV_th0.312cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb10_1173keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_1173keV_th0.354cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb10_1173keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_1173keV_th0.359cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb10_1173keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_1173keV_th0.666cm.mac"
+      }
+    ]
+  },
+  "zotactothesun": {
+    "1": [
+      {
+        "job_name": "tpcb10_1173keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 1173.0,
+        "energy_mev": 1.173,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_1173keV_th1.025cm.mac"
+      }
+    ],
+    "2": [
+      {
+        "job_name": "tpcb10_1333keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_1333keV_th0.312cm.mac"
+      }
+    ],
+    "3": [
+      {
+        "job_name": "tpcb10_1333keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_1333keV_th0.354cm.mac"
+      }
+    ],
+    "4": [
+      {
+        "job_name": "tpcb10_1333keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_1333keV_th0.359cm.mac"
+      }
+    ],
+    "5": [
+      {
+        "job_name": "tpcb10_1333keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_1333keV_th0.666cm.mac"
+      }
+    ],
+    "6": [
+      {
+        "job_name": "tpcb10_1333keV_th1.025cm",
+        "sample": "TPCB10",
+        "energy_kev": 1333.0,
+        "energy_mev": 1.333,
+        "thickness_cm": 1.025,
+        "thickness_mm": 10.25,
+        "macro_file": "tpcb10_1333keV_th1.025cm.mac"
+      }
+    ],
+    "7": [
+      {
+        "job_name": "tpcb10_2614keV_th0.312cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.312,
+        "thickness_mm": 3.12,
+        "macro_file": "tpcb10_2614keV_th0.312cm.mac"
+      }
+    ],
+    "8": [
+      {
+        "job_name": "tpcb10_2614keV_th0.354cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.354,
+        "thickness_mm": 3.54,
+        "macro_file": "tpcb10_2614keV_th0.354cm.mac"
+      }
+    ],
+    "9": [
+      {
+        "job_name": "tpcb10_2614keV_th0.359cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.359,
+        "thickness_mm": 3.59,
+        "macro_file": "tpcb10_2614keV_th0.359cm.mac"
+      }
+    ],
+    "10": [
+      {
+        "job_name": "tpcb10_2614keV_th0.666cm",
+        "sample": "TPCB10",
+        "energy_kev": 2614.0,
+        "energy_mev": 2.614,
+        "thickness_cm": 0.666,
+        "thickness_mm": 6.66,
+        "macro_file": "tpcb10_2614keV_th0.666cm.mac"
+      }
+    ]
+  }
+}

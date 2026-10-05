@@ -1,0 +1,8 @@
+/control/verbose 2
+/DetectorConstruction/Sample_Material Blank
+/DetectorConstruction/Sample_Thickness 5.0000 mm
+/DetectorConstruction/update
+
+/gun/energy 80.0000 keV
+/analysis/setFileName blank_80keV
+/run/beamOn 1000000
